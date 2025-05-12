@@ -89,7 +89,7 @@ const AddTransactionForm = ({accounts,categories,editMode=false,initialData=null
     )
 
     const handleScanComplete = (scannedData) => {
-        console.log(scannedData);
+        // console.log(scannedData);
         
         if (scannedData) {
           setValue("amount", scannedData.amount.toString());
