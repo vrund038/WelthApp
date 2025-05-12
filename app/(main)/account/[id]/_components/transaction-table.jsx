@@ -184,6 +184,7 @@ const TransactionTable = ({ transactions }) => {
         setSearchTerm("");
         setTypeFilter("");
         setRecurringFilter("");
+        SetSelectedIds([])
         setCurrentPage(1);
       };
 

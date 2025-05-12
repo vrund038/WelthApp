@@ -21,6 +21,8 @@ if(defaultAccount){
 }
 
 const transactions= await getDashboardData();
+// console.log(transactions);
+
   return (
     <div className='space-y-8'>
          {/* Budget process   */}

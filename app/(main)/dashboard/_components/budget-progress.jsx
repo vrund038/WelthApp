@@ -21,8 +21,8 @@ const percentUsed = initialBudget
     ? (currentExpenses / initialBudget.amount) * 100
     : 0;
 
-console.log(percentUsed);
-console.log(currentExpenses);
+// console.log(percentUsed);
+// console.log(currentExpenses);
 
 
     const {
